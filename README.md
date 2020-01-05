@@ -9,7 +9,7 @@
 [首页/死亡因素词云图](http://shuken7418.pythonanywhere.com/)<br>
 [危险因素死亡图](http://shuken7418.pythonanywhere.com/wx)<br>
 [因吸烟死亡人数图](http://shuken7418.pythonanywhere.com/yx)<br>
-[因吸烟死亡比例图](http://)<br>
+[因吸烟死亡比例图](http://shuken7418.pythonanywhere.com/bl)<br>
 [吸烟导致癌症死亡比例图](http://shuken7418.pythonanywhere.com/xy)<br>
 [按年龄划分吸烟死亡人数图](http://shuken7418.pythonanywhere.com/nl)<br>
 [结论&总结](http://shuken7418.pythonanywhere.com/result)
@@ -25,7 +25,7 @@ World Health Organization (WHO) Global Health Observatory (GHO)
 
 * [因吸烟死亡人数图](http://shuken7418.pythonanywhere.com/yx) 展示的是世界各国因吸烟死亡人数，衡量标准为每个国家每10万人中因吸烟死亡的人数;从地图可以看出，亚洲和东欧国家每年因吸烟死亡人数普遍高于其他国家，死亡人数通常超过100;在一些人均收入较低的国家，吸烟率较低，因此因吸烟死亡率也普遍低于其他高收入国家;
 
-* [因吸烟死亡比例图](http://)
+* [因吸烟死亡比例图](http://shuken7418.pythonanywhere.com/bl) 可以看到中国因吸烟而死的比例高达20%;从趋势线可以看出中国每年因吸烟而死的比例在逐年上升;至2017年，中国因吸烟而死的比例已上升至20%，吸烟导致了五分之一以上的死亡。
 
 * [吸烟导致癌症死亡比例图](http://shuken7418.pythonanywhere.com/xy) 可以看出全球超过五分之一的癌症死亡是吸烟导致的;美国，加拿大等发达国家吸烟导致癌症死亡比例普遍较高;而一些较为落后的国家，吸烟导致的癌症死亡比例较低;
 
