@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>The Harm Of Smoking</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+<link rel="stylesheet" href="static/style.css"/>
+</head>
+<body>
+<div class="nav">
+    <ul>
+        <li><a href="/">首页</a></li>
+        <li><a href="/wx">危险因素死亡</a></li>
+        <li><a href="/yx">因吸烟死亡人数</a></li>
+        <li><a href="/bl">因吸烟死亡比例</a></li>
+        <li><a href="/xy">吸烟导致癌症死亡比例</a></li>
+        <li><a href="/nl">按年龄划分吸烟死亡人数</a></li>
+        <li><a href="/result">结论&总结</a></li>
+    </ul>
+
+    <form method="GET" action="/xy">
+<p><input value="下一页更精彩哦 !" type="SUBMIT" ></p>
+</form>
+
+</div>
+
+    <style type="text/css">
+        /*去掉ul的样式*/
+        ul{
+            list-style:none;
+        }
+        /*去掉a标签的下划线*/
+        a{
+            text-decoration: none;
+        }
+        /*设置.nav的宽高、居中显示、下边框样式*/
+        .nav{
+            width: 970px;
+            height: 25px;
+            margin: 0 auto;
+            border-bottom: 2px solid #0266A3;
+        }
+        /*line-height: 25px;与父元素.nav的height一样，使得li居中显示*/
+        .nav li{
+            padding:0 15px 0 15px;
+            line-height: 25px;
+            float: left;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        /*a标签不能继承父标签的颜色，所以需要单独设置a标签中的字体颜色*/
+        .nav li a{
+            color: #0266A3;
+        }
+        /*当鼠标移动到li标签时，背景颜色变成#0266A3，出现一个盒阴影*/
+        .nav li:hover{
+            background-color:#0266A3 ;
+            box-shadow: 5px 5px 5px black;
+        }
+        /*当鼠标移动到li标签时，a标签中的字体颜色变成#0266A3*/
+        .nav  li:hover  a{
+            color: white;
+        }
+    </style>
+<div align="center">
+
+    <br><h2>地图展示的是世界各国因吸烟死亡人数，衡量标准为每个国家每10万人中因吸烟死亡的人数;</h2><br><br>
+
+    <div id="f620f1a7b12a41408e725bd69f88cbf2" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_f620f1a7b12a41408e725bd69f88cbf2 = echarts.init(
+            document.getElementById('f620f1a7b12a41408e725bd69f88cbf2'), 'white', {renderer: 'canvas'});
+        var option_f620f1a7b12a41408e725bd69f88cbf2 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "\u5438\u70df\u6b7b\u4ea1\u6bd4\u4f8b",
+            "connectNulls": false,
+            "symbol": "triangle",
+            "symbolSize": 20,
+            "showSymbol": true,
+            "smooth": false,
+            "step": false,
+            "data": [
+                [
+                    "1990",
+                    15.28
+                ],
+                [
+                    "1991",
+                    15.72
+                ],
+                [
+                    "1992",
+                    16.16
+                ],
+                [
+                    "1993",
+                    16.62
+                ],
+                [
+                    "1994",
+                    17.05
+                ],
+                [
+                    "1995",
+                    17.56
+                ],
+                [
+                    "1996",
+                    18.03
+                ],
+                [
+                    "1997",
+                    18.51
+                ],
+                [
+                    "1998",
+                    19.07
+                ],
+                [
+                    "1999",
+                    19.56
+                ],
+                [
+                    "2000",
+                    19.97
+                ],
+                [
+                    "2001",
+                    20.38
+                ],
+                [
+                    "2002",
+                    20.74
+                ],
+                [
+                    "2003",
+                    21.09
+                ],
+                [
+                    "2004",
+                    21.08
+                ],
+                [
+                    "2005",
+                    20.93
+                ],
+                [
+                    "2006",
+                    20.85
+                ],
+                [
+                    "2007",
+                    20.79
+                ],
+                [
+                    "2008",
+                    20.43
+                ],
+                [
+                    "2009",
+                    20.53
+                ],
+                [
+                    "2010",
+                    20.52
+                ],
+                [
+                    "2011",
+                    20.52
+                ],
+                [
+                    "2012",
+                    20.51
+                ],
+                [
+                    "2013",
+                    20.46
+                ],
+                [
+                    "2014",
+                    20.58
+                ],
+                [
+                    "2015",
+                    20.83
+                ],
+                [
+                    "2016",
+                    20.97
+                ],
+                [
+                    "2017",
+                    21.03
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "width": 4,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "dashed",
+                "color": "green"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "itemStyle": {
+                "color": "blue",
+                "borderColor": "yellow",
+                "borderWidth": 3
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u5438\u70df\u6b7b\u4ea1\u6bd4\u4f8b"
+            ],
+            "selected": {
+                "\u5438\u70df\u6b7b\u4ea1\u6bd4\u4f8b": true
+            },
+            "show": true
+        }
+    ],
+    "tooltip": {
+        "show": false,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "xAxis": [
+        {
+            "type": "category",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "1990",
+                "1991",
+                "1992",
+                "1993",
+                "1994",
+                "1995",
+                "1996",
+                "1997",
+                "1998",
+                "1999",
+                "2000",
+                "2001",
+                "2002",
+                "2003",
+                "2004",
+                "2005",
+                "2006",
+                "2007",
+                "2008",
+                "2009",
+                "2010",
+                "2011",
+                "2012",
+                "2013",
+                "2014",
+                "2015",
+                "2016",
+                "2017"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "type": "value",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisTick": {
+                "show": true,
+                "alignWithLabel": false,
+                "inside": false
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u4e2d\u56fd\u56e0\u5438\u70df\u6b7b\u4ea1\u6bd4\u4f8b"
+        }
+    ]
+};
+        chart_f620f1a7b12a41408e725bd69f88cbf2.setOption(option_f620f1a7b12a41408e725bd69f88cbf2);
+    </script>
+    <h3>从趋势线可以看出中国每年因吸烟而死的比例在逐年上升。;</h3>
+    <h3>至2017年，中国因吸烟而死的比例已上升至20%，吸烟导致了五分之一以上的死亡。</h3><br><br>
+    </div>
+</body>
+</html>
